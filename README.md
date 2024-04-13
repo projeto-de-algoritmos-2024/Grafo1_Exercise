@@ -21,10 +21,10 @@ Temas:
 |Matrícula | Aluno |
 | -- | -- |
 | 21/1030980 | Daniel dos Santos Barros de Sousa |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 21/1030710 | Eduardo Ferreira de Aquino |
 
 ## Sobre 
-O objetivo é aplicar o conteúdo de Grafos 1 dentro de problemas reais, no caso, serão escolhidos problemas no nível hard de juízes eletrônicos.
+O objetivo é aplicar o conteúdo de Grafos 1 dentro de problemas reais, no caso, serão escolhidos problemas no nível hard de juízes eletrônicos e outros sites de programação.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.

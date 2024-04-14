@@ -16,16 +16,16 @@ int DFS(int* edges, int start, int no, int* visitados){
 }
 
 int* countVisitedNodes(int* edges, int edgesSize, int* returnSize) {
-    returnSize = malloc(edgesSize * sizeof(int));
+    int *returnArray = malloc(edgesSize * sizeof(int));
 
     int visitados[edgesSize];
     memset(visitados, 0, sizeof(visitados));
 
     for(int i = 0; i < edgesSize; i++){
-        int valor = DFS(edges, i, i, visitados);
-        returnSize[i] = valor;
-        //printf("%d", returnSize[i]);
+        returnArray[i] = DFS(edges, i, i, visitados);
     }
 
-    return returnSize;
+    *returnSize = edgesSize;
+
+    return returnArray;
 }

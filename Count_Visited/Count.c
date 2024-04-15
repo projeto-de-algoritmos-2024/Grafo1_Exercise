@@ -5,10 +5,7 @@ Note: The returned array must be malloced, assume caller calls free().*/
 int DFS(int* edges, int start, int no, int* visitados){
     int contador = -1;
 
-    if(visitados[no] == (start + 1)){
-        if(start == no){return ++contador;}
-        else{return ++contador;}
-    } else{
+    if (visitados[no] != (start + 1)) {
         visitados[no] = (start + 1);
         contador = DFS(edges, start, edges[no], visitados);
     }
@@ -24,7 +21,7 @@ int* countVisitedNodes(int* edges, int edgesSize, int* returnSize) {
     for(int i = 0; i < edgesSize; i++){
         returnArray[i] = DFS(edges, i, i, visitados);
     }
-
+    
     *returnSize = edgesSize;
 
     return returnArray;

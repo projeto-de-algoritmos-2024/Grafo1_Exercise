@@ -29,9 +29,9 @@ int longestCycle(int* edges, int edgesSize) {
     int pass = 0;
 
     for(int i = 0; i < edgesSize; i++){
-        if(visitados[i] = i){pass = (i + 1);}
+        pass = (i + 1);
 
-        if(visitados[i] = pass && ciclo > -1){continue;}
+        if(ciclo > -1){continue;}
         
         int contador = DFS(edges, i, i, visitados);
 

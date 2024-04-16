@@ -48,3 +48,7 @@ Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 |:---:|:--:|:---:|
 |Difícil|[2876. Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/description/)|Eduardo e Daniel|
 |Difícil|[2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)|Eduardo e Daniel|
+
+## Explicação dos exercícios e respectivas soluções
+
+https://youtu.be/dYECtpEfahA
